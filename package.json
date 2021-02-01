@@ -1,35 +1,58 @@
 {
-  "name": "@mindinventory/react-native-tab-bar-interaction",
-  "version": "1.0.3",
-  "description": "A tabbar component for React Native",
-  "main": "TabBar.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "github:mindinventory/react-native-tab-bar-interaction",
+  "_id": "@mindinventory/react-native-tab-bar-interaction@1.0.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@mindinventory/react-native-tab-bar-interaction",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "mindinventory/react-native-tab-bar-interaction",
+    "rawSpec": "mindinventory/react-native-tab-bar-interaction",
+    "saveSpec": "github:mindinventory/react-native-tab-bar-interaction",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
-  "author": "Mindinventory",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:mindinventory/react-native-tab-bar-interaction#2a365ab7ef712f6443f1510d5eaeb3f4a9bca5b0",
+  "_spec": "mindinventory/react-native-tab-bar-interaction",
+  "_where": "C:\\Users\\Sagar\\Botapp",
+  "author": {
+    "name": "Mindinventory"
+  },
+  "bugs": {
+    "url": "https://github.com/Mindinventory/react-native-tab-bar-interaction/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A tabbar component for React Native",
+  "files": [
+    "README.md",
+    "firstValues.js"
+  ],
+  "homepage": "https://github.com/Mindinventory/react-native-tab-bar-interaction#readme",
   "keywords": [
     "react-native",
     "basic-components",
     "Tabbar",
     "react-native-tabbar"
   ],
-  "_requiredBy": [
-    "/"
-  ],
+  "license": "ISC",
+  "main": "TabBar.js",
+  "name": "@mindinventory/react-native-tab-bar-interaction",
   "peerDependencies": {
     "react": "16.3.1",
     "react-native": "0.56"
   },
-  "license": "ISC",
-  "files": [
-    "README.md"
-  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Mindinventory/react-native-tab-bar-interaction.git"
   },
-  "bugs": {
-    "url": "https://github.com/Mindinventory/react-native-tab-bar-interaction/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/Mindinventory/react-native-tab-bar-interaction#readme"
+  "version": "1.0.3"
 }
