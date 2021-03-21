@@ -202,26 +202,40 @@ export default class TabBar extends Component {
         friction: 10,
         useNativeDriver: true,
       }).start();
-      //     } else if (index === 2){
-      //         Animated.spring( that.state.pathD, { toValue: 357,duration: 10, friction: 10 }).start();
+    } else if (index === 2) {
+      Animated.spring(that.state.pathD, {
+        toValue: 357,
+        duration: 10,
+        friction: 10,
+      }).start();
 
-      //         setTimeout(function() {
-      //             that.setState({
-      //                 showIcon: true,
-      //             });
-      //         }, 100);
-      //         Animated.spring( that.state.circleRadius, { toValue: 545, friction: 10 } ).start();
-      //     }
-      //  else if (index === 3) {
-      //     Animated.spring( that.state.pathD, { toValue: 555,duration: 10, friction: 10 }).start();
+      setTimeout(function () {
+        that.setState({
+          showIcon: true,
+        });
+      }, 100);
+      Animated.spring(that.state.circleRadius, {
+        toValue: 545,
+        friction: 10,
+      }).start();
+    } else if (index === 3) {
+      Animated.spring(that.state.pathD, {
+        toValue: 555,
+        duration: 10,
+        friction: 10,
+      }).start();
 
-      //     setTimeout(function() {
-      //         that.setState({
-      //             showIcon: true,
-      //         });
-      //     }, 100);
-      //     Animated.spring( that.state.circleRadius, { toValue: 745, friction: 10 } ).start();
-      // }  else if (index === 4) {
+      setTimeout(function () {
+        that.setState({
+          showIcon: true,
+        });
+      }, 100);
+      Animated.spring(that.state.circleRadius, {
+        toValue: 745,
+        friction: 10,
+      }).start();
+      // }
+      //  else if (index === 4) {
       //     Animated.spring( that.state.pathD, { toValue: 760,duration: 10, friction: 10 }).start();
 
       //     setTimeout(function() {
