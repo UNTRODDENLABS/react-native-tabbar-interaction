@@ -43,10 +43,6 @@
   "license": "ISC",
   "main": "TabBar.js",
   "name": "@mindinventory/react-native-tab-bar-interaction",
-  "peerDependencies": {
-    "react": "16.4.1",
-    "react-native": "0.56.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Mindinventory/react-native-tab-bar-interaction.git"
